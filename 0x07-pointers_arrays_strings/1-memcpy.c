@@ -1,11 +1,13 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- * _memcpy - prints buffer in hexa
- * @des: the address of memory to print
- * @n: the size of the memory to print
- * @src: this is source
- * Return: Nothing.
+ **_memcpy - copies memory area
+ * @dest: destination memory area
+ * @src: memory area to copy from
+ * @n: number of bytes to copy
+ *
+ * Return: pointer to dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
